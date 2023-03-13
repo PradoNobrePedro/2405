@@ -1,0 +1,101 @@
+
+@@ -2,3 +2,55 @@ fun main() {
+    println("Tartaruga ☺")	    println("Tartaruga ☺")
+}	}
+//----------------------------------------------------------	//----------------------------------------------------------
+fun main() {
+    println("tava 11x3...") //exibir mensagens no console
+
+    //comentário de uma linha
+
+    /*
+     * 
+     * ele
+     * é 
+     * um
+     * comentário 
+     * de
+     * mais 
+     * de
+     * uma
+     * linha
+     * 
+     */
+
+    //Variáveis - elas armazenam valores
+
+    //variáveis mutáveis - seu valor pode ser alterado -------------- var
+    //variáveis não mutáveis - seu valor NÃO pode ser alterado ------ val 
+    //
+    // Tipos de Variáveis
+    //
+    // Boolean - verdadeiro ou falso Ex.: true e false
+    // String - Caracteres no geral ... entre ASPAS DUPLAS 
+    // - sem limite de caracteres ex.: "João Geromel Cadeira's"
+    // 
+    // Char - apenas 1 digito de caractere... dentro de ASPAS SIMPLES Ex: 'J'
+    // Int - números inteiros Ex: 100
+    // Double - números decimais, com um limite de até 7 digitos após a vírgula - 
+    // arredonda o número Ex.: 22.5
+    // 
+    // Float - números decimais, com um limite de até 14 digitos após a vírgula -
+    // arredonda o número Ex.: 22.5f
+    //
+    // Long - números longos com muitos digitos inteiro, ou decimal Ex.: 8000000000000000000000
+    //
+    // Estrutura de uma variável: 
+    // 
+    // var nome = valor 
+    //       ou
+    // var nome: Tipo
+    // 
+    var professoresDeGeografia = "Glória"
+    var professorr: String
+
+
+}
+//---------------------------------------------------------------------------
+fun main() {
+    //Concatenação
+    //
+    /*
+    var tartaruga = "Michael Havckson"
+    
+    println ("nome da tartaruga do Kylian Mbappé é $tartaruga") 
+    println ("O nome da tartaruga do Kyliam Mbappé é " + tartaruga)
+    
+    var Leclerc = 2 
+    var alonso = 1 
+    
+    println(" A posição do Lek Lek + a posição do Alonso são ${(Leclerc + alonso)}")
+    
+    println(" A posição do Lek Lek + a posição do Alonso são "+ (Leclerc + alonso))
+    
+    
+    var nome = "Pedro"
+    var idade = 12
+    var cidade = "São Paulo"
+    
+    println(" O meu é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    //Exercício - Faça um diálogo no mínimo 15 linhas, nele deve contar,
+    //os nomes de quem estão falando de forma concatenada usando variáveis
+    
+    var nome1 = "Maria"
+    var nome2 = "João"
+    var idade2 = 34
+    var idade1 = 7
+    var doce = "bala"
+    
+    println("Olá meu nome é $nome2, tenho $idade2")
+    println("Olá meu nome é $nome1, tenho $idade1")
+    println("Eu queria te ofercer uma $doce")
+    println("Eu não quero,MÂE, o $nome2 quer me sequestrar")
+    println("Eu não quero te sequestrar só quero te dar uma $doce")
+    println("Mãe o $nome2 disse que quer me sequestrar")
+    println("Calma eu não quero isso só quero ser seu amigo, pois quando criança não tinha amigos por ser diferente")
+    println("Mas porque você não tinha amigos $nome2")
+    println("")
+    
+}
+//-------------------------------------------------------------------------------------------------------------------------------
