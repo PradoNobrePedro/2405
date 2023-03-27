@@ -95,7 +95,11 @@ fun main() {
     println("Mãe o $nome2 disse que quer me sequestrar")
     println("Calma eu não quero isso só quero ser seu amigo, pois quando criança não tinha amigos por ser diferente")
     println("Mas porque você não tinha amigos $nome2")
-    println("")
+      println("Então você quer uma $doce $nome1")
+    println("Tá bom então vou comer essa $doce")
+    println("Aí eu estou me sentindo meio mal (E $nome1 acaba desmaiando)")
+    println("Eí $nome3 me ajude a levar a $nome1 para dentro do carro")
+    println("(E desse dia em diante $nome1 nunca mais foi vista)")
     
 }
 //-------------------------------------------------------------------------------------------------------------------------------
@@ -222,3 +226,63 @@ fun main() {
   
 }
 //----------------------------------------------------------------------------------------------
+fun main() {
+  /*var senha = "azeitona"
+  
+  if(senha == "azeitona"){
+    println("Bem-Vindo Sr Stark") 
+}else{
+    println("Senha Incoreta, Tente Novamente")
+    
+  }
+ 
+ // Socorram me subi no ônibus em Marrocos
+ 
+ // if..else composto
+ //
+ // com o if..else composto, somos permitidos, comparar mais de duas condições (o simples)
+ // e o else), através do 'else if'
+ // 
+ 
+ var coracoes = 5
+ if (coracoes >= 5){
+     println("Você está muito saudável! Parabéns")
+ }else if(coracoes == 4){
+     println("Você tá de boa")
+ }else if(coracoes == 3){
+     println("Cuidado com a sua saúde, durma melhor")
+ }else if(coracoes == 2){
+     println("Vá se tratar, você não está bem ...")
+ }else if(coracoes == 1){
+     println("Estado crítico!!!!!!!")
+ }else{
+     println("Novo reforço do Vasco")
+     
+}*/
+ // 1 - faça um programa usando duas variáveis que representa cada uma, um número
+ // ele(programa) deve verificar qual dos dois é o maior número e imprimi-lo no console
+ 
+ var jogo = 10
+ var controle = 5
+    
+ if (jogo > controle)
+ 
+ println("O $jogo é maior que $controle")
+ else
+ println("O $controle é maior que $jogo")
+ 
+ var carro = 100
+    
+    if(carro > 0)
+    println("$carro é maior que 0")
+    
+    if(carro < 0)
+    println("$carro é menor que 0")
+    
+    if(carro == 0)
+    println("$carro é igual a 0")
+    
+    
+ 
+  }
+  -------------------------------------------------------------------------------------------------
