@@ -286,3 +286,31 @@ fun main() {
  
   }
   -------------------------------------------------------------------------------------------------
+fun main() {
+// Operadores Lógicos
+// && -> e ou and -> se todas as condições forem verdadeiros, o resutado será verdadeiro
+// || -> ou or -> se uma condição for verdadeira, o resultado vai ser verdadeiro
+// 
+// Tabela Verdade
+// 
+// &&
+// VV -> Verdadeiro
+// VF -> Falso 
+// FV -> Falso
+// FF -> Falso
+// 
+// // &&
+// VVV -> Verdadeiro
+// VVF -> Falso
+// FFF -> Falso
+// FVF -> Falso
+// FVV -> Falso
+// VFV -> Falso
+// 
+// ||
+// VV -> Verdadeiro
+// VF -> Verdadeiro
+// FV -> Verdadeiro
+// FF -> Falso
+  }
+  ------------------------------------------------------------------------------------
