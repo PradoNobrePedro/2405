@@ -573,3 +573,64 @@ fun main() {
   
 }
 //-------------------------------------------------------
+fun main (){
+    // while -> EMQUANTO uma determinada condição for verdadeiro, uma determinada ação será
+    // executada
+   /*
+    var contador = 
+  while(contador < 10){
+    */
+    
+    //do...while
+    //
+    //  uma determinada ação será executada, ENQUANTO uma determinada condição for
+    //  verdadeira
+    //  
+    //  Estrutura
+    //  
+    //  do{
+    //  ação
+    //  }while(condição)
+    /* 
+    var contador = 0 
+    
+    do{
+        println(contador++)
+    }while(contador > 10)
+     
+    */
+    
+    // for - para ...
+    // 
+    // PARA cada item em um interválo ou collection, uma determinada ação será executada 
+    // Estrutura:
+    // 
+    // for (vAxiliar in intervalo ou collection){
+    // ação
+    // }
+    //
+    /* 
+    for(pneu in 1..4){
+        println("1 pneu")
+        
+    } 
+    */
+    // Exercício -> Faça uma tabuada até o décimo multiplo de um número escolhido, 
+    // utilizando o laço for 
+    // em excessão as Atabuadas do 0, 1 e 2
+    // 
+    for (tabuada in 1..10){
+       println("$tabuada")
+       println(tabuada ++)
+   
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+}
+//---------------------------------------------------------------
