@@ -666,3 +666,80 @@ fun main (){
   
 }
 //----------------------------------------------------------------------------
+fun main (){
+    // Obs. listOf() -> imutável
+    // Próxima aula... mutableListOf()
+    // mutableLstOf() --> armazena qualquer tipo de valores conjuntos
+    // mutableListOf<tipoDeValor -> armazena valores especificos de seu tipo
+    /*
+    var comida = mutableListOf<String>("Strogonoff","Patê de Frango","Lasagna","Feijoada")
+    
+    println(comida)
+    
+    // Propriedades
+    
+    comida.add("Macarrão")//adiciona um valor a lista 
+    println(comida)
+    comida.add(3, "Cuscuz")//adiciona um valor a um index em especifico na lista 
+    println(comida)
+    comida.remove("Patê de Frango")//remove um valor em especifico na lista
+    println(comida)
+    comida.removeAt(0)//remove um valor de um index em especifico
+    println(comida)
+    comida.set(2, "Pastel de Carne Seca")//substitui um valor pelo deu index
+    println(comida)
+    comida.clear()//remover todos os valores da lista 
+    println(comida)
+    */
+    
+    //Execicio -> A cada mês do ano, em uma turma de 5 alunos, entra uma aluno novo
+    //crie a lista de alunos da turma 
+    //a cada mês adicione um novo aluno (em linhas diferentes)
+    //e 2 meses do ano, 2 alunos foram transferidos da turma 
+    //e em 2 meses do anos, 2 alunos foram substituído por 
+    //outros dois alunos(dica: em meses diferentes)
+    //
+    // Exiba a lista de alunos respectiva de cada mes do ano
+    
+    var alunos = mutableListOf<String> ("Pedro","Joaquim","Ireno","Caio","Leonardo")
+    println(alunos)
+    alunos.add("Eduardo")
+    println(alunos)
+    println("Janeiro")
+    alunos.add("Larissa")
+    alunos.set(2, "Isabella")
+    println(alunos)
+    println("Fevereiro")
+    alunos.add("Lorenzo")
+    println(alunos)
+    println("Março")
+    alunos.add("Enzo")
+    alunos.remove("Joaquim")
+    println(alunos)
+    println("Abril")
+    alunos.add("Gabriella")
+    println(alunos)
+    println("Maio")
+    alunos.add("Bruna")
+    alunos.set(4, "Maria")
+    println(alunos)
+    println("Junho")
+    alunos.add("Arthur")
+    println(alunos)
+    println("Julho")
+    alunos.add("Gabriel")
+    alunos.remove("Maria")
+    println(alunos)
+    println(!"Agosto")
+    
+    
+    
+    
+    
+    
+  
+  
+  
+  
+}
+//-------------------------------------------------------------------------------------------------
