@@ -743,3 +743,86 @@ fun main (){
   
 }
 //-------------------------------------------------------------------------------------------------
+fun main (){
+    var alunos = mutableListOf<String> ("Pedro","Joaquim","Ireno","Caio","Leonardo")
+    println(alunos)
+    println("Começo do ano")
+    
+    alunos.add("Eduardo")
+    println(alunos)
+    println("Janeiro")
+    
+    alunos.add("Larissa")
+    alunos.set(2, "Isabella")
+    println(alunos)
+    println("Fevereiro")
+    
+    alunos.add("Lorenzo")
+    println(alunos)
+    println("Março")
+    
+    alunos.add("Enzo")
+    alunos.remove("Joaquim")
+    println(alunos)
+    println("Abril")
+    
+    alunos.add("Gabriella")
+    println(alunos)
+    println("Maio")
+    
+    alunos.add("Bruna")
+    alunos.set(4, "Maria")
+    println(alunos)
+    println("Junho")
+    
+    alunos.add("Arthur")
+    println(alunos)
+    println("Julho")
+    
+    alunos.add("Gabriel")
+    alunos.remove("Maria")
+    println(alunos)
+    println("Agosto")
+    
+    alunos.add("Mateus")
+    println(alunos)
+    println("Setembro")
+    
+    alunos.add("Jubiscleuda")
+    println(alunos)
+    println("Outubro")
+    
+    alunos.add("João")
+    println(alunos)
+    println("Novembro")
+    
+    alunos.add("Said")
+    println(alunos)
+    println("Dezembro")
+    
+    
+    //POO
+    //
+    //Programção Orientada a Objestos
+    //
+    // Objetivo: Simular atividades e situações do mundo real
+    // 
+    // Objeto - elementos que podem interagir com um sistema Ex: Pé
+    // 
+    // Classe - Denominação de um determinado objeto Ex: Menbro do Corpo
+    // 
+    // Atributos - características, propriedades, parâmetros Ex: Tamanho
+    // 
+    // Metódos - Atividades, ações, que o obj pode realizar Ex: Chutar
+    // 
+    // Herança - Atributos de um objeto que são HERDADOS de uma classe 
+    
+
+    
+    
+  
+  
+  
+  
+}
+//-----------------------------------------------------------------------------------------------
