@@ -862,3 +862,50 @@ class Pessoa {
 
 }
 //------------------------------------------------------------------------------
+
+  fun main() {
+      var pessoa3 = Pessoa()
+      var animal1 = Animal("Cachorro","Pinscher",7,"chinelo","grande")
+      var animal2 = Animal("Tartaruga","Tartaruga-da-madeira",199,"algas","mar")
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      //Exercício -> Faça o catálogo de animais que estão morando no zoológico de SP
+      // com no mínimo 20 animais, sem a repetição de raça
+   
+  
+}
+class Animal(var especie: String,//Atributos que todo animal deve ter
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var habitat: String){
+    
+    
+    
+}  
+
+
+
+
+class Pessoa {
+    //Atributos que toda pessoa pode ter
+    var nome = "Pedru"
+    var idade = 12
+    var altura = 1.60
+    var peso = 55 
+    var Dinheiro = 12000
+    var profissao = "Estudante"
+    var nacionalidade = "Brasileiro"
+    var anoescolar = "8 ano"
+    var setrabalha = "não"
+  
+}
+//---------------------------------------------------------------------
