@@ -909,3 +909,79 @@ class Pessoa {
   
 }
 //---------------------------------------------------------------------
+fun main() {
+      var pessoa3 = Pessoa()
+      var animal1 = Animal("Cachorro","Pinscher",7,"chinelo","grande")
+      var animal2 = Animal("Tartaruga","Tartaruga-da-madeira",199,"algas","mar")
+      var animal3 = Animal("Rato","Ratazanas",2,"queijo","esgoto")
+      var animal4 = Animal("Elefante","Elefante-aiático",50,"arvóre","Savana")
+      var animal5 = Animal("Tartaruga","Tartaruga-russa",89,"algas","mar")
+      var animal6 = Animal("Leão","Leão-branco",23,"carne","Savana")
+      var animal7 = Animal("Cachorro","Pitbul",1,"ração","canil")
+      var animal8 = Animal("Girafa","girafa do sul",10,"foia","Savana")
+      var animal9 = Animal("Leão","leão-africano",50,"carne","Savana")
+      var animal10 = Animal("peixe","koi",2,"foia marinha","mar")
+      var animal11 = Animal("Macaco","babuíno",13,"foia","floresta")
+      var animal12 = Animal("Porco","porco vietnamita",2,"trigo","fazenda")
+      var animal13 = Animal("Peixe","Peixe dourado",6,"ração","aquario")
+      var animal14 = Animal("Girafa","girafa Masa",76,"foia","Savana")
+      var animal15 = Animal("Elefante","elefante-africano-de-floresta",3,"foia","Savana")
+      var animal16 = Animal("Cachorro","shitzu",12,"ração","canil")
+      var animal17 = Animal("Tigre","bombaim",4,"carne","floresta")
+      var animal18 = Animal("Passáro","Canário-do-campo",98,"semente","cidade")
+      var animal19 = Animal("Rato","Rato de Telhado ",8,"queijo","esgoto")
+      var animal20 = Animal("Capivara","Hydrochoerus isthmius",97,"foia","mato")
+      println("Especie":animal1."especie"/"Raça":animal1."raça"/"Raça"animal1."idade"/"Dieta":animal1."dieta"/"Habitat"animal1."habitat")
+      println(animal2"especie"/animal2."raça"/animal2."idade"/animal2."dieta"/animal2."habitat")
+      println(animal3."especie"/animal3."raça"/animal3."idade"/animal3."dieta"/animal3."habitat")
+      println(animal4."especie"/animal4."raça"/animal4."idade"/animal4."dieta"/animal4."habitat")
+      println(animal5."especie"/animal5."raça"/animal5."idade"/animal5."dieta"/animal5."habitat")
+      println(animal6."especie"/animal6."raça"/animal6."idade"/animal6."dieta"/animal6."habitat")
+      println(animal7."especie"/animal7."raça"/animal7."idade"/animal7."dieta"/animal7."habitat")
+      println(animal8."especie"/animal8."raça"/animal8."idade"/animal8."dieta"/animal8."habitat")
+      println(animal9."especie"/animal9."raça"/animal9."idade"/animal9."dieta"/animal9."habitat")
+      println(animal10."especie"/animal10."raça"/animal10."idade"/animal10."dieta"/animal10."habitat")
+      println(animal11."especie"/animal11."raça"/animal11."idade"/animal11."dieta"/animal11."habitat")
+      println(animal12."especie"/animal12."raça"/animal12."idade"/animal12."dieta"/animal12."habitat")
+      println(animal13."especie"/animal13."raça"/animal13."idade"/animal13."dieta"/animal13."habitat")
+      println(animal14."especie"/animal14."raça"/animal14."idade"/animal14."dieta"/animal14."habitat")
+      println(animal15."especie"/animal15."raça"/animal15."idade"/animal15."dieta"/animal15."habitat")
+      println(animal16."especie"/animal16."raça"/animal16."idade"/animal16."dieta"/animal16."habitat")
+      println(animal17."especie"/animal17."raça"/animal17."idade"/animal17."dieta"/animal17."habitat")
+      println(animal18."especie"/animal18."raça"/animal18."idade"/animal18."dieta"/animal18."habitat")
+      println(animal19."especie"/animal19."raça"/animal19."idade"/animal19."dieta"/animal19."habitat")
+      println(animal20."especie"/animal20."raça"/animal20."idade"/animal20."dieta"/animal20."habitat")
+      
+      
+      //Exercício -> Faça o catálogo de animais que estão morando no zoológico de SP
+      // com no mínimo 20 animais, sem a repetição de raça
+   
+  
+}
+class Animal(var especie: String,//Atributos que todo animal deve ter
+             var raça: String,
+             var idade: Int,
+             var dieta: String,
+             var habitat: String){
+    
+    
+    
+}  
+
+
+
+
+class Pessoa {
+    //Atributos que toda pessoa pode ter
+    var nome = "Pedru"
+    var idade = 12
+    var altura = 1.60
+    var peso = 55 
+    var Dinheiro = 12000
+    var profissao = "Estudante"
+    var nacionalidade = "Brasileiro"
+    var anoescolar = "8 ano"
+    var setrabalha = "não"
+  
+}
+//----------------------------------------------------------------
