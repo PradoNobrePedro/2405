@@ -985,3 +985,35 @@ class Pessoa {
   
 }
 //----------------------------------------------------------------
+fun main() {
+    // Metódos - Atividades, ações, que o obj pode realizar Ex: Chutar
+   
+    var animalzin = Animal("cachorro","Shih-tzu",8,"Chinelo","pequeno")
+    
+    animalzin.comer("Ipanema")  
+    
+    var animalzao = Animal("Golfinho","Boto",50,"Sardinha","pequeno")
+    
+    animalzao.correr(120.0,"Rio")
+}
+class Animal(var especie: String,//Atributos que todo animal deve ter
+             var raça: String,
+             var idade: Int,
+             var dieta: String,
+             var porte: String){
+// Estrutura de um metódo:
+// fun (nomeDoParâmetro: tipoDoParâmetro){
+// ação
+// }
+
+fun comer(alimento:String){
+    println("$especie comendo $alimento,yumm")
+} 
+fun correr(velocidade: Double, lugar: String){
+    println("$especie correndo em uma velocidade de $velocidade km/h no $lugar")   
+    
+}
+
+
+}
+//--------------------------------------------------------------------------------------------
